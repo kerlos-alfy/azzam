@@ -2,24 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover" />
-  <title>Eng. Sherif Emara | Operations Director</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover"
+  />
+  <title>Mohamed Azzam | HR Manager</title>
 
-  <meta property="og:title" content="Eng. Sherif Emara | Operations Director">
-  <meta property="og:description" content="Agile Prime - Premium Digital Card">
-  <meta property="og:image" content="asset/images/Eng/EngSherif.jpg">
+  <!-- Open Graph / Share -->
+  <meta property="og:title" content="Mohamed Azzam | HR Manager">
+  <meta
+    property="og:description"
+    content="Tap to save the digital business card of Mohamed Azzam – HR Manager."
+  >
+  <meta property="og:image" content="asset/images/Eng/MohamedAzzam.jpg">
   <meta name="theme-color" content="#000000">
-<meta property="og:title" content="Eng. Sherif Emara | Operations Director">
-<meta property="og:description" content="Tap to save the digital business card of Eng. Sherif Emara – Operations Director at Agile Prime General Contracting L.L.C.">
-<meta property="og:image" content="https://agileprime-gc.com/asset/images/Eng/EngSherif-share.jpg">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="Agile Prime Digital Card">
+
+  <meta property="og:image" content="https://agilerac.com/asset/images/Eng/MohamedAzzam-share.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Agile Prime Digital Card">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Manrope:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  >
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  >
 
   <style>
     :root {
@@ -29,6 +42,7 @@
       --gold-bright: #f0e2b6;
       --border-dim: #1f1f1f;
     }
+
     * {
       box-sizing: border-box;
       margin: 0;
@@ -36,6 +50,7 @@
       -webkit-tap-highlight-color: transparent;
       outline: none;
     }
+
     body {
       font-family: 'Manrope', sans-serif;
       background-color: var(--bg-black);
@@ -61,15 +76,25 @@
       transition: opacity 0.6s ease;
       animation: hideSplash 0.6s ease 1.5s forwards;
     }
+
     .splash-logo {
       width: 90px;
       margin-bottom: 15px;
       animation: logoPulse 2s infinite ease-in-out;
     }
+
     @keyframes logoPulse {
-      0%, 100% { transform: scale(1); opacity: 1; }
-      50% { transform: scale(0.95); opacity: 0.8; }
+      0%,
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(0.95);
+        opacity: 0.8;
+      }
     }
+
     @keyframes hideSplash {
       to {
         opacity: 0;
@@ -94,12 +119,14 @@
       display: flex;
       align-items: center;
       gap: 10px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
-      transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275), opacity 0.4s;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+      transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275),
+        opacity 0.4s;
       opacity: 0;
       z-index: 10000;
       white-space: nowrap;
     }
+
     .toast.show {
       transform: translateX(-50%) translateY(0);
       opacity: 1;
@@ -113,9 +140,10 @@
       padding: 2px;
       border-radius: 26px;
       background: var(--border-dim);
-      box-shadow: 0 40px 100px rgba(0,0,0,0.95);
+      box-shadow: 0 40px 100px rgba(0, 0, 0, 0.95);
       overflow: hidden;
     }
+
     .vcard-wrapper::before {
       content: '';
       position: absolute;
@@ -137,9 +165,14 @@
       animation: borderSpin 5s linear infinite;
       pointer-events: none;
     }
+
     @keyframes borderSpin {
-      from { transform: translate(-50%, -50%) rotate(0deg); }
-      to   { transform: translate(-50%, -50%) rotate(360deg); }
+      from {
+        transform: translate(-50%, -50%) rotate(0deg);
+      }
+      to {
+        transform: translate(-50%, -50%) rotate(360deg);
+      }
     }
 
     .vcard {
@@ -160,6 +193,7 @@
       border-radius: 50%;
       background: linear-gradient(135deg, #333, var(--gold-main), #333);
     }
+
     .avatar {
       width: 100%;
       height: 100%;
@@ -168,6 +202,7 @@
       border: 4px solid var(--card-bg);
       background: #111;
     }
+
     .verified-badge {
       position: absolute;
       bottom: 5px;
@@ -182,7 +217,7 @@
       align-items: center;
       justify-content: center;
       font-size: 12px;
-      box-shadow: 0 5px 15px rgba(0,0,0,0.5);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
     }
 
     .name {
@@ -206,8 +241,11 @@
       -webkit-text-fill-color: transparent;
       animation: shineText 4s linear infinite;
     }
+
     @keyframes shineText {
-      to { background-position: 200% center; }
+      to {
+        background-position: 200% center;
+      }
     }
 
     .role {
@@ -225,21 +263,24 @@
       gap: 12px;
       margin-bottom: 30px;
     }
+
     .link-item {
       display: flex;
       align-items: center;
       padding: 15px;
-      background: rgba(255,255,255,0.03);
-      border: 1px solid rgba(255,255,255,0.08);
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid rgba(255, 255, 255, 0.08);
       border-radius: 16px;
       text-decoration: none;
       cursor: pointer;
       transition: 0.2s;
     }
+
     .link-item:active {
       background: rgba(167, 141, 87, 0.1);
       border-color: var(--gold-main);
     }
+
     .icon-box {
       width: 38px;
       height: 38px;
@@ -249,26 +290,30 @@
       margin-right: 15px;
       color: var(--gold-main);
       font-size: 1.1rem;
-      background: rgba(0,0,0,0.3);
+      background: rgba(0, 0, 0, 0.3);
       border-radius: 10px;
     }
+
     .link-text {
       display: flex;
       flex-direction: column;
       text-align: left;
       flex: 1;
     }
+
     .label {
       font-size: 0.6rem;
       color: #777;
       text-transform: uppercase;
       letter-spacing: 1px;
     }
+
     .value {
       font-size: 0.9rem;
       color: #eee;
       font-weight: 500;
     }
+
     .copy-icon {
       font-size: 0.8rem;
       color: #555;
@@ -279,6 +324,7 @@
       display: flex;
       gap: 10px;
     }
+
     .btn-gold {
       flex: 1;
       border: none;
@@ -295,14 +341,17 @@
       box-shadow: 0 5px 20px rgba(167, 141, 87, 0.15);
       cursor: pointer;
     }
-    .btn-gold:active { transform: scale(0.97); }
+
+    .btn-gold:active {
+      transform: scale(0.97);
+    }
 
     .btn-action {
-      background: rgba(255,255,255,0.1);
+      background: rgba(255, 255, 255, 0.1);
       color: #fff;
       border-radius: 16px;
       width: 56px;
-      border: 1px solid rgba(255,255,255,0.1);
+      border: 1px solid rgba(255, 255, 255, 0.1);
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -314,7 +363,7 @@
       width: 56px;
       background: transparent;
       color: var(--gold-main);
-      border: 1px solid rgba(255,255,255,0.1);
+      border: 1px solid rgba(255, 255, 255, 0.1);
       border-radius: 16px;
       font-size: 1.3rem;
       display: flex;
@@ -322,6 +371,7 @@
       justify-content: center;
       cursor: pointer;
     }
+
     .btn-qr:active {
       background: rgba(167, 141, 87, 0.1);
       color: #fff;
@@ -338,7 +388,7 @@
     .qr-overlay {
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,0.85);
+      background: rgba(0, 0, 0, 0.85);
       display: flex;
       align-items: center;
       justify-content: center;
@@ -348,10 +398,12 @@
       z-index: 1000;
       backdrop-filter: blur(5px);
     }
+
     .qr-overlay.active {
       opacity: 1;
       pointer-events: auto;
     }
+
     .qr-box {
       position: relative;
       background: #111;
@@ -361,8 +413,9 @@
       width: 88%;
       text-align: center;
       border: 1px solid var(--gold-main);
-      box-shadow: 0 20px 60px rgba(0,0,0,0.9);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.9);
     }
+
     .qr-close {
       position: absolute;
       right: 14px;
@@ -373,18 +426,24 @@
       font-size: 1.1rem;
       cursor: pointer;
     }
-    .qr-close:active { color:#ccc; }
+
+    .qr-close:active {
+      color: #ccc;
+    }
+
     .qr-title {
       color: var(--gold-main);
       margin-bottom: 18px;
       font-family: 'Cinzel', serif;
       font-size: 1rem;
     }
+
     .qr-caption {
       margin-top: 18px;
       color: #666;
       font-size: 0.8rem;
     }
+
     .qr-frame {
       background: #fff;
       padding: 10px;
@@ -392,6 +451,7 @@
       display: inline-block;
       position: relative;
     }
+
     .qr-logo-center {
       position: absolute;
       top: 50%;
@@ -406,120 +466,104 @@
   </style>
 </head>
 <body>
-
+  <!-- Toast -->
   <div id="toast" class="toast">
     <i class="fa-solid fa-circle-check"></i>
     <span id="toastMsg">Action Successful</span>
   </div>
 
+  <!-- Splash Screen -->
   <div class="splash-screen" id="splash">
-    <img src="asset/images/logo.png" class="splash-logo" alt="Logo"
-         onerror="this.src='https://ui-avatars.com/api/?name=A&background=a78d57&color=000&size=100&rounded=true'">
+    <img
+      src="asset/images/logo.png"
+      class="splash-logo"
+      alt="Logo"
+      onerror="this.src='https://ui-avatars.com/api/?name=A&background=a78d57&color=000&size=100&rounded=true'"
+    >
   </div>
 
+  <!-- Main Card -->
   <div class="vcard-wrapper visible" id="mainCard">
     <div class="vcard">
       <div class="avatar-container">
         <img
-          src="asset/images/Eng/EngSherif.jpg"
+          src="asset/images/Eng/MohamedAzzam.jpg"
           id="profileImage"
           class="avatar"
           crossorigin="anonymous"
-          onerror="this.src='https://ui-avatars.com/api/?name=Sherif+Emara&background=000&color=a78d57&size=200'">
+          onerror="this.src='https://ui-avatars.com/api/?name=Mohamed+Azzam&background=000&color=a78d57&size=200'"
+        >
         <div class="verified-badge">
           <i class="fa-solid fa-check"></i>
         </div>
       </div>
 
-      <h1 class="name">Eng. Sherif Emara</h1>
-      <div class="role">Operations Director</div>
+      <h1 class="name">Mohamed Azzam</h1>
+      <div class="role">HR Manager</div>
 
       <div class="link-list">
-        <!-- Mobile 1 -->
-        <a href="tel:+966537606681" class="link-item"
-           oncontextmenu="copyText('+966 53 760 6681', 'Phone Copied'); return false;">
+        <!-- Mobile -->
+        <a
+          href="tel:0569983676"
+          class="link-item"
+          oncontextmenu="copyText('056-998-3676', 'Phone Copied'); return false;"
+        >
           <div class="icon-box">
             <i class="fa-solid fa-phone"></i>
           </div>
           <div class="link-text">
             <span class="label">Mobile</span>
-            <span class="value">+966 53 760 6681</span>
+            <span class="value">056-998-3676</span>
           </div>
           <i class="fa-regular fa-copy copy-icon"></i>
         </a>
 
-     
-
-        <!-- Mobile 3 -->
-        <a href="tel:+971586913269" class="link-item"
-           oncontextmenu="copyText('+971 58 691 3269', 'Phone Copied'); return false;">
-          <div class="icon-box">
-            <i class="fa-solid fa-phone"></i>
-          </div>
-          <div class="link-text">
-            <span class="label">Mobile</span>
-            <span class="value">+971 58 691 3269</span>
-          </div>
-          <i class="fa-regular fa-copy copy-icon"></i>
-        </a>
-
-        <!-- Mobile 4 -->
-        <a href="tel:+971564604608" class="link-item"
-           oncontextmenu="copyText('+971 56 460 4608', 'Phone Copied'); return false;">
-          <div class="icon-box">
-            <i class="fa-solid fa-phone"></i>
-          </div>
-          <div class="link-text">
-            <span class="label">Mobile</span>
-            <span class="value">+971 56 460 4608</span>
-          </div>
-          <i class="fa-regular fa-copy copy-icon"></i>
-        </a>
-   <!-- Mobile 2 -->
-        <a href="tel:+201017998945" class="link-item"
-           oncontextmenu="copyText('+20 101 799 8945', 'Phone Copied'); return false;">
-          <div class="icon-box">
-            <i class="fa-solid fa-phone"></i>
-          </div>
-          <div class="link-text">
-            <span class="label">Mobile</span>
-            <span class="value">+20 101 799 8945</span>
-          </div>
-          <i class="fa-regular fa-copy copy-icon"></i>
-        </a>
         <!-- Email -->
-        <div class="link-item" onclick="copyText('SHERIFEMARA@AGILERAC.COM', 'Email Copied')">
+        <div
+          class="link-item"
+          onclick="copyText('HR@AGILERAC.COM', 'Email Copied')"
+        >
           <div class="icon-box">
             <i class="fa-solid fa-envelope"></i>
           </div>
           <div class="link-text">
             <span class="label">Email</span>
-            <span class="value">SHERIFEMARA@AGILERAC.COM</span>
+            <span class="value">HR@AGILERAC.COM</span>
           </div>
-          <i class="fa-regular fa-copy copy-icon" style="opacity:0.5"></i>
+          <i class="fa-regular fa-copy copy-icon" style="opacity: 0.5"></i>
         </div>
 
         <!-- Website -->
-        <a href="https://agileprime-gc.com" target="_blank" class="link-item">
+        <a
+          href="https://agilerac.com"
+          target="_blank"
+          class="link-item"
+        >
           <div class="icon-box">
             <i class="fa-solid fa-globe"></i>
           </div>
           <div class="link-text">
             <span class="label">Website</span>
-            <span class="value">agileprime-gc.com</span>
+            <span class="value">www.agilerac.com</span>
           </div>
-          <i class="fa-solid fa-arrow-up-right-from-square copy-icon" style="opacity:0.5"></i>
+          <i
+            class="fa-solid fa-arrow-up-right-from-square copy-icon"
+            style="opacity: 0.5"
+          ></i>
         </a>
 
         <!-- Location -->
-        <a href="https://www.google.com/maps/search/?api=1&query=Bay+View+Tower+1708+Business+Bay+Dubai"
-           target="_blank" class="link-item">
+        <a
+          href="https://www.google.com/maps/search/?api=1&query=1708+Bay+View+Tower+Business+Bay+Dubai"
+          target="_blank"
+          class="link-item"
+        >
           <div class="icon-box">
             <i class="fa-solid fa-location-dot"></i>
           </div>
           <div class="link-text">
             <span class="label">Location</span>
-            <span class="value">1708, Bay View Tower, Dubai</span>
+            <span class="value">1708, Bay View Tower, Business Bay, Dubai, UAE</span>
           </div>
         </a>
       </div>
@@ -536,7 +580,7 @@
         </button>
       </div>
 
-      <div class="footer">Agile Prime General Contracting</div>
+      <div class="footer">Agile Prime Group</div>
     </div>
   </div>
 
@@ -550,45 +594,49 @@
       <div class="qr-frame">
         <div id="qrcode"></div>
         <div class="qr-logo-center">
-          <img src="asset/images/logo.png" style="width:100%;"
-               onerror="this.src='https://ui-avatars.com/api/?name=A&background=fff&color=000'">
+          <img
+            src="asset/images/logo.png"
+            style="width: 100%;"
+            onerror="this.src='https://ui-avatars.com/api/?name=A&background=fff&color=000'"
+          >
         </div>
       </div>
-      <div class="qr-caption">Agile Prime General Contracting</div>
+      <div class="qr-caption">Agile Prime Group</div>
     </div>
   </div>
 
+  <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
   <script>
     const vCardData = {
-      fn: "Sherif",
-      ln: "Emara",
-      title: "Operations Director",
+      fn: "Mohamed",
+      ln: "Azzam",
+      title: "HR Manager",
       org: "Agile Prime General Contracting L.L.C",
-      phone: "+966537606681",
-      email: "SHERIFEMARA@AGILERAC.COM",
-      url: "https://agileprime-gc.com",
-      address: ";;Bay View Tower 1708, Business Bay;Dubai;;;UAE",
-      photoUrl: "asset/images/Eng/EngSherif.jpg"
+      phone: "0569983676",
+      email: "HR@AGILERAC.COM",
+      url: "https://agilerac.com",
+      address: ";;1708 Bay View Tower, Business Bay;Dubai;;;UAE",
+      photoUrl: "asset/images/Eng/MohamedAzzam.jpg"
     };
 
     function showToast(message) {
-      const toast = document.getElementById('toast');
-      document.getElementById('toastMsg').innerText = message;
-      toast.classList.add('show');
+      const toast = document.getElementById("toast");
+      document.getElementById("toastMsg").innerText = message;
+      toast.classList.add("show");
       if (navigator.vibrate) navigator.vibrate(50);
-      setTimeout(() => toast.classList.remove('show'), 3000);
+      setTimeout(() => toast.classList.remove("show"), 3000);
     }
 
     function copyText(text, label) {
       if (navigator.clipboard && navigator.clipboard.writeText) {
         navigator.clipboard.writeText(text).then(() => showToast(label));
       } else {
-        const temp = document.createElement('input');
+        const temp = document.createElement("input");
         temp.value = text;
         document.body.appendChild(temp);
         temp.select();
-        document.execCommand('copy');
+        document.execCommand("copy");
         document.body.removeChild(temp);
         showToast(label);
       }
@@ -598,12 +646,12 @@
       if (navigator.share) {
         try {
           await navigator.share({
-            title: 'Eng. Sherif Emara',
+            title: "Mohamed Azzam",
             url: window.location.href
           });
-        } catch {}
+        } catch (e) {}
       } else {
-        copyText(window.location.href, 'Link Copied');
+        copyText(window.location.href, "Link Copied");
       }
     }
 
@@ -611,12 +659,12 @@
       try {
         const r = await fetch(url);
         const b = await r.blob();
-        return new Promise(res => {
+        return new Promise((res) => {
           const reader = new FileReader();
-          reader.onloadend = () => res(reader.result.split(',')[1]);
+          reader.onloadend = () => res(reader.result.split(",")[1]);
           reader.readAsDataURL(b);
         });
-      } catch {
+      } catch (e) {
         return null;
       }
     }
@@ -629,10 +677,10 @@
       let photoBase64 = await imageToBase64(vCardData.photoUrl);
 
       let vcf =
-        `BEGIN:VCARD\n` +
-        `VERSION:3.0\n` +
+        "BEGIN:VCARD\n" +
+        "VERSION:3.0\n" +
         `N:${vCardData.ln};${vCardData.fn};;;\n` +
-        `FN:Eng. ${vCardData.fn} ${vCardData.ln}\n` +
+        `FN:${vCardData.fn} ${vCardData.ln}\n` +
         `TITLE:${vCardData.title}\n` +
         `ORG:${vCardData.org}\n` +
         `TEL;TYPE=CELL:${vCardData.phone}\n` +
@@ -643,11 +691,11 @@
       if (photoBase64) {
         vcf += `\nPHOTO;ENCODING=b;TYPE=JPEG:${photoBase64}`;
       }
-      vcf += `\nEND:VCARD`;
+      vcf += "\nEND:VCARD";
 
       const link = document.createElement("a");
       link.href = URL.createObjectURL(new Blob([vcf], { type: "text/vcard" }));
-      link.download = "Eng_Sherif_Emara.vcf";
+      link.download = "Mohamed_Azzam.vcf";
       link.click();
 
       showToast("Contact Saved");
@@ -657,16 +705,15 @@
     let qrMade = false;
 
     function toggleQR() {
-      const overlay = document.getElementById('qrOverlay');
-      const isOpening = !overlay.classList.contains('active');
-      overlay.classList.toggle('active');
+      const overlay = document.getElementById("qrOverlay");
+      const isOpening = !overlay.classList.contains("active");
+      overlay.classList.toggle("active");
 
       if (isOpening && !qrMade) {
         const qrContainer = document.getElementById("qrcode");
         qrContainer.innerHTML = "";
 
-        /* ⭐ أهم تعديل هنا — QR يفتح اللينك */
-        const qrText = "http://eng.sherif.agileprime-gc.com/";
+        const qrText = window.location.href; // QR يفتح نفس صفحة الكارت
 
         requestAnimationFrame(() => {
           new QRCode(qrContainer, {
